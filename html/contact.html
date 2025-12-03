@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Torque Theory Automotive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body class="page-contact">
+  <header>
+    <a href="../index.html">
+      <img src="../images/torque-theory-logo.svg" alt="Torque Theory Automotive - High Performance Modifications Logo" id="header-logo" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="../index.html" id="nav-home">Home</a></li>
+        <li><a href="services.html" id="nav-page1">Services</a></li>
+        <li><a href="gallery.html" id="nav-page2">Gallery</a></li>
+        <li><a href="about.html" id="nav-page3">About</a></li>
+        <li><a href="contact.html" id="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-info">
+      <p>MART-145 Web Design</p>
+      <p>Final Project</p>
+      <p>Authors - Landon Farrar & Cole Henriksen</p>
+    </div>
+  </header>
+  
+  <main>
+    <h2>📧 Contact Us 📧</h2>
+    
+    <div class="contact-card">
+      <p>Ready to start your next performance build? Contact us today for a consultation.</p>
+      
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="vehicle">Vehicle Type</label>
+        <select id="vehicle" name="vehicle">
+          <option value="">Select a category</option>
+          <option value="street">Street & Asphalt</option>
+          <option value="classic">Classic Car</option>
+          <option value="dirt">Off-Road & Dirt</option>
+          <option value="truck">Truck</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Torque Theory. All rights reserved.</p>
+  </footer>
+</body>
+</html>
