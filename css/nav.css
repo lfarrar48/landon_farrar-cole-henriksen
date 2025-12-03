@@ -53,6 +53,7 @@ header nav ul li a:hover {
 .page-home #nav-home,
 .page-1 #nav-page1,
 .page-2 #nav-page2,
+.page-3 #nav-page3,
 .page-contact #nav-contact {
     background-color: #1a1a1a;
     border: 2px solid #ffffff;
